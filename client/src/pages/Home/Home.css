@@ -1,0 +1,15 @@
+.HomeContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.HomeContainer > div {
+  margin: 10px;
+}
+
+.HomeContainer > div:first-of-type {
+  margin: 10px 10px 10px 0px;
+}
+.HomeContainer > div:last-of-type {
+  margin: 10px 0px 10px 10px;
+}

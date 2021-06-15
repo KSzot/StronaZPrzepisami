@@ -1,0 +1,9 @@
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+form > * {
+  flex-basis: 40%;
+  margin: 20px 5px !important;
+}
